@@ -21,16 +21,21 @@ function sum(selArray){
   return result;
 }
 
-//Creates an array from the start int to the finish int (inclusive)
+//This doesn't work yet
+//Creates an array from the start int to the finish int (inclusive) with specified step increments
 
 function range(start, end, step){
 	var numList = [];
   	while(start<=end){
     	numList.push(start);
-	if step == undefined;
+	if (step == undefined);{
       	start += 1;
-	else
-	start += step;
+    }else if (step < 0){
+		start -= step;
+    }else (step > 0){
+		start += step;
+    }
     }  
 	return numList
 }
+
