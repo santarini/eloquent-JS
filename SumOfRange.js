@@ -26,16 +26,12 @@ function sum(selArray){
 
 function range(start, end, step){
 	var numList = [];
-  while(start<=end){
-  	numList.push(start);
-		if (step == undefined);{
-  		start += 1;
-  	}else if (step < 0){
-			start -= step;
-  	}else (step > 0){
-			start += step;
-  	}
-  }  
+  	while(start<=end){
+		if (step === "undefined");{
+          	numList.push(start);
+      		start += 1;
+        }
+    }
 	return numList
 }
 
