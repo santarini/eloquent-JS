@@ -10,4 +10,4 @@ function countChar(str, char){
         }
   	}
   return counter
-}
+} 
