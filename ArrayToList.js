@@ -1,6 +1,7 @@
 function arrayToList(test){
-  var list;
-	for(var i = 0; i < length.test; i++;){
-      console.log(test);
+	for(var i = 0; i <= test.length; i++){
+      	if (test[i] != undefined){
+          console.log(test[i]);
+        }
     }
 }
