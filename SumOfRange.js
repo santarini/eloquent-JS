@@ -1,4 +1,4 @@
-//Creates an array from the start int to the finish int (inclusive)
+//Creates an array from the start int to the finish int (inclusive of finish)
 
 function range(start, end){
 	var numList = [];
@@ -21,8 +21,7 @@ function sum(selArray){
   return result;
 }
 
-//This doesn't work yet
-//Creates an array from the start int to the finish int (inclusive) with specified step increments
+//Creates an array from the start int to the finish int (inclusive of finish) with specified step increments
 
 function range(start, end, step){
 	var numList = [];
