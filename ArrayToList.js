@@ -1,14 +1,8 @@
-function arrayToList(test){
-	for(var i = 0; i <= test.length; i++){
-      	if (test[i] != undefined){
-          console.log(test[i]);
-        }
-    }
-}
-
-
-////Basic list insert
-function arrayToList(test){
-    var list = {value:test};
-  	return list
+///
+var arrayToList = function(arr) {
+  var list = null;
+  for(i = arr.length - 1; i >= 0; i--) {
+    list = { value: arr[i], rest: list };
+  }
+  return list;
 }
