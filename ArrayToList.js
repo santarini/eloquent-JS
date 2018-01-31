@@ -5,3 +5,10 @@ function arrayToList(test){
         }
     }
 }
+
+
+////Basic list insert
+function arrayToList(test){
+    var list = {value:test};
+  	return list
+}
